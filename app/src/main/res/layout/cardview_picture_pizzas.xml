@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/cornerradius_cardview"
+    app:cardElevation="@dimen/cardElevation"
+    android:layout_width="match_parent"
+    android:id="@+id/pictureCardView"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+
+            android:id="@+id/pictureCard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_cardview"
+            android:background="@drawable/americana"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:background="@color/background_textcard"
+
+
+            >
+            <TextView
+                android:id="@+id/pizzaNamecard"
+                android:text="@string/pizzaName"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/textSize_userName_card"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <TextView
+                    android:id="@+id/pizzaDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/firstWord_card"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/firstword_textsize_card"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PizzaDelivery</string>
+    <string name="text_button_login">Login</string>
+    <string name="dont_have_account">No tienes Cuenta?</string>
+    <string name="create_here">Crea Aqui</string>
+    <string name="hit">Crea Aqui</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_username">Nombre de Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_email">Correo</string>
+    <string name="title_activity_create_account">Crea una cuenta</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_container">Nuestras Pizzas 🍕</string>
+
+    <string name="hint_confirm_password">Confirmar Contraseña</string>
+    <string name="text_button_createAccount">Únete</string>
+    <string name="todo">TODO</string>
+    <string name="pizzaName">Americana</string>
+    <string name="firstWord_card">¡La Pizza preferida de los chicos! Jamón y queso mozzarella.</string>
+    <string name="pizzaName2">Vegetariana</string>
+    <string name="firstWord_card2">Exquisita combinación de champiñones, aceitunas verdes, pimientos verdes, cebolla roja y queso mozzarella.</string>
+    <string name="pizzaName3">Pepperoni</string>
+    <string name="firstWord_card3">Sabor incomparable de pepperoni americano y queso mozzarella.</string>
+</resources>
